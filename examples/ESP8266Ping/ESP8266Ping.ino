@@ -41,6 +41,7 @@ void setup()
   Serial.print("Connected to ");
   Serial.println(mySSID );
   delay(1000);
+  Serial.println("------------------------------------");
   Serial.print("IP adress is :");
   Serial.println(esp8266.localIP());
   Serial.println("------------------------------------");
