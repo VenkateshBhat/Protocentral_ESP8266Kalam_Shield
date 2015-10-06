@@ -29,3 +29,5 @@ const char ESP8266_GET_LOCAL_IP[] = "+CIFSR"; // Get local IP address
 const char ESP8266_TCP_MULTIPLE[] = "+CIPMUX"; // Set multiple connections mode
 const char ESP8266_TRANSMISSION_MODE[] = "+CIPMODE"; // Set transmission mode
 const char ESP8266_PING[] = "+PING"; // Function Ping
+
+

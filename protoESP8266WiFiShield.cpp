@@ -7,7 +7,6 @@ ESP8266 WiFi Shield Library Main Source File
 #include <Arduino.h>
 #include "ESP8266_AT.h"
 
-
 #define ESP8266_DISABLE_ECHO
 SoftwareSerial ESP8266Serial(ESP8266_SW_TX, ESP8266_SW_RX);
 

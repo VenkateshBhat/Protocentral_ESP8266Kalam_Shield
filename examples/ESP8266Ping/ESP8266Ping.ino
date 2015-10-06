@@ -6,13 +6,13 @@ this example pinging to the domain and returns the response time
 #include <SoftwareSerial.h>
 #include <protoESP8266WiFiShield.h>
 
-
 // Replace these two character strings with the name and
 const char mySSID[] = "circuitects";   // your SSID
 const char myPSK[] = "open1234";       // password
 
 char destServer[] = "protocentral.com";
 ESP8266Class esp8266;
+
 
 void setup() 
 {
